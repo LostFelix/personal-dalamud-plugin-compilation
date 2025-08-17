@@ -134,5 +134,57 @@
     "Tags": [
       "Sea Of Stars"
     ]
-  }
+  },
+  {
+    "ApplicableVersion": "any",
+    "AssemblyVersion": "4.3.0.0",
+    "Author": "Anna",
+    "Changelog": "- Fix certain minor errors not being retried\n- Improve performance while installing large mods\n- Fix install prompt only showing one per-mod update setting\n- Add per-mod update settings to Penumbra window\n- Change update process to be faster for larger mods\n- Use less disk space for updates on filesystems without hard link support\n- Add option to collapse Heliosphere settings in Penumbra by default\n- Make Heliosphere settings collapsible on a per-mod basis in Penumbra\n\nNote that updates for larger mods are still fairly slow, but a redundant step is\nnow skipped. Please report any bugs with the new update system (or install\nfailures) to our forums: https://forums.heliosphere.app/",
+    "DalamudApiLevel": 13,
+    "Description": "Heliosphere is a mod manager and platform designed to work directly with\nPenumbra. It enables efficient downloads and fast installs to let you get back\nto the fun part of mods: using them.\n\nHeliosphere supports:\n- Direct install to Penumbra\n- Compressed and deduplicated (read: small) downloads\n- Automatic updates (optional)\n- Version history\n- Mod changelogs\n- Pictures in Penumbra\n- And more\n\nGive Heliosphere a try, and see if you can't say goodbye to any old mod\nplatform you were using before.",
+    "DownloadCount": 9001,
+    "DownloadLinkInstall": "https://repo.heliosphere.app/latest.zip",
+    "DownloadLinkTesting": "https://repo.heliosphere.app/testing.zip",
+    "DownloadLinkUpdate": "https://repo.heliosphere.app/latest.zip",
+    "IconUrl": "https://repo.heliosphere.app/icon.png",
+    "InternalName": "heliosphere-plugin",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1754968278,
+    "Name": "Heliosphere",
+    "Punchline": "An efficient mod manager and platform that integrates directly with Penumbra.",
+    "RepoUrl": "https://heliosphere.app/",
+    "Tags": [
+      "mods",
+      "modding",
+      "penumbra",
+      "textools",
+      "Sea Of Stars"
+    ],
+    "TestingAssemblyVersion": "2.3.0.0",
+    "TestingChangelog": "- Fix a possible error in the multiple directory warning\n- Fix updates for mods with duplicated files\n- Add a first-time-user setup window to make onboarding easier",
+    "TestingDalamudApiLevel": 10
+  },
+  {
+    "Author": "Chirp",
+    "Name": "Ktisis",
+    "InternalName": "Ktisis",
+    "Description": "A robust posing tool for creating screenshots in GPose.",
+    "AssemblyVersion": "0.2.29",
+    "TestingAssemblyVersion": "0.3.8",
+    "RepoUrl": "https://github.com/ktisis-tools/Ktisis",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "TestingDalamudApiLevel": 13,
+    "Tags": [
+      "gpose",
+      "posing",
+      "ktisis",
+      "Sea Of Stars"
+    ],
+    "IconUrl": "https://github.com/ktisis-tools/Ktisis/raw/main/icon.png",
+    "DownloadLinkInstall": "https://github.com/ktisis-tools/Ktisis/releases/download/v0.2.29/latest.zip",
+    "DownloadLinkTesting": "https://repo.ktisis.tools/pubtest/v0.3.8.zip",
+    "DownloadLinkUpdate": "https://github.com/ktisis-tools/Ktisis/releases/download/v0.2.29/latest.zip"
+  },
 ]
